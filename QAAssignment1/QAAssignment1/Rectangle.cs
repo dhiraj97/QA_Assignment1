@@ -15,13 +15,11 @@ namespace QAAssignment1
         {
             length = width = 1;
         }
-
         public Rectangle(int length, int width)
         {
             this.length = length;
             this.width = width;
         }
-
         public int GetLength()
         {
             return this.length;
@@ -38,14 +36,13 @@ namespace QAAssignment1
         {
             this.width = width;
         }
-        public int GetParameter()
+        public int GetPerimeter()
         {
-            return 2*(length + width);
+            return 2 * (length + width);
         }
         public int GetArea()
         {
             return length * width;
         }
-
     }
 }
